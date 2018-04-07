@@ -82,7 +82,14 @@ Typical usages:
    and so on, ending up with a score that might be high enough for triggering
    an alert to you :)
 
+** Compile PassiveDNS: **
 
+  $ git clone git://github.com/gamelinux/passivedns.git
+  $ cd passivedns/
+  $ autoreconf --install
+  $ ./configure
+  $ make
+  
 Questions, suggestions, sugar or flame is always welcome :)
 
 I hope PassiveDNS gives you a new tool to fight malware and its herders...
